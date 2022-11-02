@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<style>
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .bg-img{
+        margin: 0;
+        padding: 0;
+        background-image: url(https://images.unsplash.com/photo-1528562014890-9cc833b10c23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80);
+        height: 100%;
+        filter: blur(4px);
+        background-repeat: no-repeat;
+        
+        /* background-color: black; */
+
+    }
+
+    .bgtext
+    {
+        position: absolute;
+        background-color: rgba(0,0,0, 0.7);
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .start
+    {
+        text-align: center;
+        margin: 30px;
+    }
+
+    .mid
+    {
+        background-color: rgb(60, 60, 60);
+        border-width: 10px;
+        border-color: red;
+        border-style: solid;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 14px;
+        color: antiquewhite;
+        text-align: center;
+    }
+
+    .mid h1{
+        
+        margin: 7;
+        font-size: 50px;
+    }
+
+    .right
+    {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .right button{
+        border: 2px solid white;
+        background-color: rgb(255, 255, 255,0);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        padding: 4px;
+        border-radius: 10px;
+        
+    }
+
+    .btn a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .bt{
+        border: none;;
+        border-radius: 10px;
+        background-color: rgb(0, 119, 255);
+    }
+
+    .bt:hover
+    {
+        background-color: rgb(62, 62, 255);
+        cursor: pointer;
+    }
+
+    .bt:active{
+        background-color: rgb(0, 0, 255);
+    }
+    
+    .bt a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .btn:hover
+    {
+        background-color: rgb(156, 156, 160);
+        cursor: pointer;
+    }
+
+    .btn:active
+    {
+        background-color: rgb(94, 94, 94);
+    }
+    
+
+    .main
+    {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .main h1{
+        color: antiquewhite;
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+
+    .text
+    {
+        text-align: center;
+        padding: 7px;
+    }
+
+    .text input{
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .text h1{
+        color: antiquewhite;
+    }
+
+    .foot
+    {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        bottom: 0;
+        padding: 5px;
+        font-family: sans-serif;
+        
+    }
+
+    .foot p{
+        margin: 0;
+        letter-spacing: 2px;
+    }
+
+
+
+
+</style>
+<body>
+
+    <div class="bg-img"></div>
+
+
+    <div class="bgtext">
+
+        <div class="start">
+            <div class="mid">
+                <h1>STUDENT</h1>
+                <h1>PERCENTAGE</h1>
+                <h1>PREDICTOR</h1>
+            </div>
+        </div>
+        
+
+
+        <div class="main">
+            <h1>Enter Your Study Hours</h1>
+        </div>
+
+        <div class="text">
+            <input type="number" placeholder="Enter Here">
+        </div>
+
+        <div class="text">
+            <button class="bt"> <a  href="">Submit</a></button>
+        </div>
+
+        <div class="text">
+            <h1>Predicted Result</h1>
+        </div>
+
+        <div class="right">
+            <button class="btn"> <a  href="https://www.instagram.com/abhi.nowww" target="_blank">Contact Us</a></button>
+        </div>
+
+
+
+
+        <div class="foot">
+            
+            <p>Created By ABHINAV ANAND</p>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    
+    
+</body>
+</html>
